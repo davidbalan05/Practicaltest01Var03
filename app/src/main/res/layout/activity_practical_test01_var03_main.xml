@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:saveEnabled="false"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -51,13 +52,16 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:saveEnabled="false"/>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:text=""
+            android:saveEnabled="false"/>
 
         <Button
             android:id="@+id/button3"
